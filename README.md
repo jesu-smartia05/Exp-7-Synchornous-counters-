@@ -1,7 +1,10 @@
 # Exp-6-Synchornous-counters - up counter and down counter 
-### AIM: To implement 4 bit up and down counters and validate  functionality.
-### HARDWARE REQUIRED:  – PC, Cyclone II , USB flasher
-### SOFTWARE REQUIRED:   Quartus prime
+## AIM:
+To implement 4 bit up and down counters and validate  functionality.
+### HARDWARE REQUIRED:  
+– PC, Cyclone II , USB flasher
+### SOFTWARE REQUIRED:  
+Quartus prime
 ### THEORY 
 
 ## UP COUNTER 
@@ -46,43 +49,59 @@ This type of counter is normally referred to as a Down Counter, (CTD). In a bina
 
 4-bit Count Down Counter
 ### Procedure
-/* write all the steps invloved */
+1.Open a new project using Quartus II.
 
+2.Declare the inputs and outputs inside module downcounter().
 
+3.Set the reset value using register.
 
-### PROGRAM 
+4.Use commands like begin and end to stimulate the counter.
+
+5.For Up counter increment the count and for Down counter decrement the count.
+
+6.End the verilog programming.
+
+## PROGRAM 
 /*
-Program for flipflops  and verify its truth table in quartus using Verilog programming.
-Developed by: 
-RegisterNumber:  
-*/
+#### Program for flipflops  and verify its truth table in quartus using Verilog programming.
+##### Developed by: JESU SMARTIA A 
+##### RegisterNumber:  212223110016
 
+### DOWNCOUNTER:
 
+![image](https://github.com/jesu-smartia05/Exp-7-Synchornous-counters-/assets/148514819/3b9ce392-d28a-4c42-991f-f49aa2bc85f6)
 
+### UPCOUNTER:
 
+![image](https://github.com/jesu-smartia05/Exp-7-Synchornous-counters-/assets/148514819/339aff4f-d474-4a92-b38a-850658996cc0)
 
+## RTL LOGIC UP COUNTER AND DOWN COUNTER  
 
-### RTL LOGIC UP COUNTER AND DOWN COUNTER  
+### DOWNCOUNTER:
 
+![image](https://github.com/jesu-smartia05/Exp-7-Synchornous-counters-/assets/148514819/27f39e3b-1e0b-42c6-88bf-97e575f49fc0)
 
+### UPCOUNTER:
 
+![image](https://github.com/jesu-smartia05/Exp-7-Synchornous-counters-/assets/148514819/6b093277-0c22-4331-90b5-486ea0d3ec11)
 
+## TIMING DIGRAMS FOR COUNTER  
+### DOWNCOUNTER:
 
+![image](https://github.com/jesu-smartia05/Exp-7-Synchornous-counters-/assets/148514819/0235dcc4-9063-447e-bdab-d4d05c16ab2b)
 
+### UPCOUNTER:
 
+![image](https://github.com/jesu-smartia05/Exp-7-Synchornous-counters-/assets/148514819/1f4e3839-c35c-4648-9ed9-ae3e2dc42223)
 
+## TRUTH TABLE 
+### DOWNCOUNTER:
 
-### TIMING DIGRAMS FOR COUNTER  
+![image](https://github.com/jesu-smartia05/Exp-7-Synchornous-counters-/assets/148514819/b1f71d6f-0675-4ad5-acc9-363bf54d5cfa)
 
+### UPCOUNTER:
 
+![image](https://github.com/jesu-smartia05/Exp-7-Synchornous-counters-/assets/148514819/14e93f68-dcfd-48ff-bac4-b8422e53fd00)
 
-
-
-### TRUTH TABLE 
-
-
-
-
-
-
-### RESULTS 
+# RESULTS 
+Thus Synchornous counters up counter and down counter circuit are studied and the truth table for different logic gates are verified.
